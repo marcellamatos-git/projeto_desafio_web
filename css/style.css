@@ -1,11 +1,38 @@
 body{
-    font-family: Arial, sans-serif;
-text-align: center;
-background-color: #c26767;
+ font-family: Arial, sans-serif;
+
+background-color: #474545;
 }
 h1 {
-    color: navy;
+    color: rgb(248, 248, 255);
     }
     p {
-        color: rgb(66, 5, 43);
+        color: rgb(189, 180, 185);
+        }
+        h1, h3{
+            text-align: center;
+
+        }
+        label, input{
+            display: block;
+            margin: 10px 0px;
+
+        }
+        #div-form{
+            background-color: #cecece;
+            width: 500px;
+            min-height: 400px;
+            margin: 20px auto;
+            padding: 20px;
+
+        }
+        #div-dados{
+            background-color: rgb(165, 168, 172);
+            width: 100%;
+            height: 100px;
+            margin: 20px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
         }
