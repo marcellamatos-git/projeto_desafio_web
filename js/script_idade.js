@@ -11,9 +11,9 @@ formDados.addEventListener('submit', (evt)=>{
 
     const objformDados = new FormData(formDados)
     
-    let nome = objFormDados.get('nome')
-
-    let idade = objFormDados.get('idade')
+    
+    let nome = objformDados.get('nome')
+    let idade = objformDados.get('idade')
 
     let situacaoIdade = ''
 
