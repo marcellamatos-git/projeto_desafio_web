@@ -104,6 +104,7 @@ MENOR QUE 18 - NÃO PERMITIDO
 70 ACIMA - 3 ANOS
 */
  //aninhamento do if
+ 
 if (idade < 18) {
     console.log(`COM A IDADE DE ${idade}, NÃO É PERMITIDO POSSUIR CNH`);
 } else if (idade < 50) {
