@@ -12,11 +12,12 @@ formDados.addEventListener('submit', (evt)=>{
     const objformDados = new FormData(formDados)
     
     
-    let Largura = parseFloat(objformDados.get('Largura'))
-    let Altura = parseFloat(objformDados.get('Altura'))
+    let DistanciaKM = parseFloat(objformDados.get('Distancia KM'))
+    let Consumo = parseFloat(objformDados.get('Consumo'))
+    let preço = parseFloat(objformDados.get('preço'))
  
 
-    let area = Largura * Altura
+    let = Distancia KM 
 
     
     divResultado.innerHTML = `a area a ser pintada é de ${area. 
